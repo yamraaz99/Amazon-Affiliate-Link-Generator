@@ -7,7 +7,7 @@ if($_SERVER['REQUEST_METHOD'] !== "POST"){
     die;
 }
 
-$access_token = "your_personal_bitly_access_token";
+$access_token = "ae7b109e7e5764eefc8c2148394f611b55593efc";
 $tag = $_POST['tag'];
 $asin = $_POST['asin'];
 $version = "v3";
